@@ -1,68 +1,74 @@
 body {
-  font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
-  background-color: #1e272e;
-  margin: 0px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1e272e;
+    margin: 0px;
 }
 
-body, a {
-  color: #FFFFFF;
-  text-decoration: none;
+body,
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #ef5777;
+    color: #ef5777;
 }
 
 nav {
-  font-size: 17px;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #485460;
+    font-size: 17px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #485460;
 }
 
 #content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#filter{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width:350px;
-  margin-bottom: 20px;
-  border: 1px solid #ef5777;
-  padding: 10px 0px;
+#filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 20px;
+    border: 1px solid #ef5777;
+    padding: 10px 0px;
 }
 
-#sort{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width:350px;
+#sort {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 350px;
 }
-
 
 ul {
-  list-style: none;
-  width: 350px;
-  padding: 0px;
-  margin: 0px;
+    list-style: none;
+    width: 350px;
+    padding: 0px;
+    margin: 0px;
 }
 
 ul li a {
-  height: 40px;
-  display : block;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    height: 40px;
+    display: flex;
+    align-items: left;
+    justify-items: end;
+    justify-content: space-between;
+    width: 400px;
+    text-align: center;
 }
 
 .picto {
-  width: 18px;
+    width: 18px;
+}
+
+#divStyl {
+    margin-top: 30px;
 }
